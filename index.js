@@ -11,6 +11,7 @@ var transport = nodemailer.createTransport({
     }
   });
 
+const port = process.env.PORT ?? 8050
 app.use(express.static(path.join(__dirname,"public")))
 app.use(express.urlencoded({extended: true}))
 app.use(express.json())
@@ -42,6 +43,7 @@ app.post('/',(req,res)=>{
 app.get("/order",(req,res)=>{
     res.send("Order complete")
 })
-app.listen(3000,()=>{
+
+app.listen(port,()=>{
     console.log("Server is listening ...")
 })
