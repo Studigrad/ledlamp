@@ -41,7 +41,7 @@ app.post('/',(req,res)=>{
       res.redirect('/order')
 })
 app.get("/order",(req,res)=>{
-    res.send("Order complete")
+    res.render('order')
 })
 
 app.listen(port,()=>{
