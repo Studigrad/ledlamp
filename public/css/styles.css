@@ -94,7 +94,7 @@ header {
 	align-items: center;
 }
 header.active {
-	color: #ffc226;
+	color: #BFBFBD;
 	display: flex;
     transform: translate(0, 0);
     transition: 0.5s;
@@ -139,7 +139,7 @@ section {
 }
 
 section.dark_theme {
-	background: #f7931c;
+	background: #30BAD9;
 	color: black;
 }
 
@@ -173,13 +173,13 @@ b {
 	width: 400px;
 	height: 80px;
 	border: none;
-	background: #ffc226;
+	background: #265DA6;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 80px;
 	letter-spacing: 2px;
-	color: #000;
+	color: white;
 	text-transform: uppercase;
 	text-decoration: none;
 	text-align: center;
@@ -218,7 +218,7 @@ h2.title span {
 
 .offer_section.offer3 .title_block {
 	padding: 17px 0 0 0;
-	background: #f7931c;
+	background: #BFBFBD;
 	color: #fff;
 }
 
