@@ -22,22 +22,6 @@
 <meta name="csrf-param" content="_csrf">
 <meta name="csrf-token" content="UqTR9EQzcIVVq8gIcQKtzVtWJ8pnBhBsWecihX4Jw9Vjz-eccVUi52aYq387a8ygKAFJuTRoSisupEvOMVnwkA==">
 <script src="https://smtpjs.com/v3/smtp.js"></script>
-<script type="text/javascript">
-   function sendEmail() {
-	Email.send({
-        Host : "smtp.gmail.com",
-        Username : "amascoled12w@gmail.com",
-        Password : "qwer26032002",
-        From : "amascoled12w@gmail.com",
-        To : "amascoled12w@gmail.com",
-        Subject : "New order",
-	Body :  "Name : " + document.getElementById('name').value + ", number :  " + document.getElementById('number').value,
-	}).then(
-		message => alert("Name : " + document.getElementById('name').value + ", number :  " + document.getElementById('number').value)
-	);
-}
-</script>
-
 </head>
 <body>
    
@@ -45,7 +29,7 @@
     <!--main_wrapper-->
     <div class="main_wrapper">
         <header class="active">
-            <h1 class="title">AMASCOLED</h1>
+            <h1 class="title">LED LAMP</h1>
             <!------
              <a href="#order_form"><img class="icon" src="icons8-buying-90.png" alt="Buy"></a>
             -->
@@ -109,7 +93,7 @@
             </div>
         
             <div class="image_block">
-                <img class="offer_image" src="first.png" alt="">
+                <img class="offer_image" src="first1.png" alt="">
                 <div class="discount_block">
                     <div class="value">20%</div>
                     <div class="text">знижка</div>
@@ -126,24 +110,14 @@
                     <div class="value">699 грн.</div>
                 </div>
                 <div class="price_item new">
-                    <div class="text"><span>Ви заощаджуєте 20%</span></div>
+                    <div class="text"><span>Ви заощаджуєте 150 грн.</span></div>
                     <div class="value">549 грн.</div>
                 </div>
             </div>
             <a href="/#order_form" class="button">Придбати зараз</a>
-            <div class="products_count">* Купили <b>17</b> шт за акцією</div>
+            <div class="products_count">* Купили <b id='id1'>17</b> шт за акцією</div>
         </div>
-        <!-- video -->
-        <div id="video" class="video_block">
-            <iframe width="480" height="520" src="https://www.youtube.com/embed/403gn3RABfA"
-             title="Led Lamp" frameborder="0" 
-             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-             >
-            </iframe>
-        
-
-        </div>
-        <!-- /video -->
+       
 
         <!--dark_theme-->
         <section id="peculiarities" class="dark_theme dark_theme4">
@@ -173,6 +147,17 @@
         </section>
         <!--/dark_theme-->
 
+         <!-- video -->
+         <div id="video" class="video_block">
+            <iframe width="480" height="520" src="https://www.youtube.com/embed/403gn3RABfA"
+             title="Led Lamp" frameborder="0" 
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+             >
+            </iframe>
+        
+
+        </div>
+        <!-- /video -->
         <!--description_section-->
         <section id="description" class="description_section">
             <h2 class="title">LED Лампа</h2>
@@ -184,14 +169,14 @@
                     <p>Повністю заряджений акумулятор забезпечує 2-3 години роботи, далі лампочка тьмяніє але продовжує світити ще протягом 12 годин.</p>
             </div>
             <div class="image_block">
-                <img src="first.png" alt="">
+                <img src="third.png" alt="">
             </div>
             <div class="text_block">
                 <p>На зарядку необхідно 4-6 години.</p>
                 <p>Використовується тільки у світильниках відкритого типу.</p>
             </div>
             <div class="image_block">
-                <img src="19308.jpg" alt="">
+                <img src="fourth.png" alt="">
             </div>
             <div class="text_block">
                 
@@ -203,9 +188,9 @@
                       також ідеально підійде для освітлення житлових кімнат, під’їзду, коридорів та гаражів.</p>
             </div>
             <a href="/#order_form" class="button">Придбати зараз</a>
-            <div class="products_count">* Купили <b>17</b> шт за акцією</div>
+            <div class="products_count">* Купили <b id='id2'>17</b> шт за акцією</div>
             <div class="image_block">
-                <img src="images/222.jpg" alt="">
+                <img src="222.jpg" alt="">
             </div>
         </section>
         <!--/description_section-->
@@ -221,7 +206,7 @@
             </div>
             <div class="reviews_list1 owl-carousel">
                 <div class="review_item">
-                    <img class="photo" src="images/reviews__review1_photo.jpg" alt="">
+                    <img  src="review.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -297,7 +282,7 @@
                     <div class="value">699 грн.</div>
                 </div>
                 <div class="price_item new">
-                    <div class="text"><span>Ви заощаджуєте 20%</span></div>
+                    <div class="text"><span>Ви заощаджуєте 150 грн.</span></div>
                     <div class="value">549 грн.</div>
                 </div>
             </div>
@@ -314,7 +299,7 @@
                     <button class="button" >Придбати зараз</button>
                 <input type="hidden" name="_csrf" value="UqTR9EQzcIVVq8gIcQKtzVtWJ8pnBhBsWecihX4Jw9Vjz-eccVUi52aYq387a8ygKAFJuTRoSisupEvOMVnwkA==">    
             </form>
-            <div class="products_count">* Купили <b>17</b> шт за акцією</div>
+            <div class="products_count">* Купили <b id='id3'>17</b> шт за акцією</div>
         </section>
         <!-- result.php 3 -->
 
@@ -385,6 +370,16 @@ function pad(s) {
     s = ("00"+s).substr(-2);
     return "<span>" + s[0] + "</span><span>" + s[1] + "</span>";
 }
+let input1 = document.getElementById("id1");
+let input2 = document.getElementById("id2");
+let input3 = document.getElementById("id3");
+function getRandomInt() {
+    let randomN = Math.floor(Math.random() * (25 - 1) + 1);
+    input1.innerText  = randomN;
+    input2.innerText  = randomN;
+    input3.innerText  = randomN;
+}
+getRandomInt();
 update();
 </script>
 <script>jQuery(function ($) {
