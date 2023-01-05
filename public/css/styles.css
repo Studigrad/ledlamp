@@ -100,7 +100,7 @@ header.active {
     transition: 0.5s;
     z-index: 100;
     box-shadow: 0px 4px 6px rgb(0 0 0 / 20%);
-    background: #F22233;
+    background: #c10b1a;
 }
 
 header a.logo svg {
@@ -218,7 +218,7 @@ h2.title span {
 
 .offer_section.offer3 .title_block {
 	padding: 17px 0 0 0;
-	background: #F22233;
+	background: #c10b1a;
 	color: #fff;
 }
 
@@ -763,6 +763,7 @@ margin-bottom: 30px;}
 .products_count {
 	margin: 20px 0 0;
 	text-align: center;
+	display: none;
 }
 
 .offer_section.offer1 .products_count {
