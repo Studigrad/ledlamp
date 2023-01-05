@@ -173,7 +173,7 @@ b {
 	width: 400px;
 	height: 80px;
 	border: none;
-	background: #F22233;
+	background: #c10b1a;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-size: 24px;
@@ -466,7 +466,7 @@ margin-bottom: 30px;}
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
-	background: #F22E52;
+	background: #c10b1a;
 	color: #fff;
 }
 
@@ -716,7 +716,7 @@ margin-bottom: 30px;}
 
 .offer_section.offer3 .benefits_list {
 	padding: 12px 0 12px 18px;
-	background: #F22233;
+	background: #c10b1a;
 	color: #fff;
 }
 
@@ -2439,7 +2439,7 @@ font-weight: 500;}
 
 .footer_section {
 	padding: 25px 0;
-	background: #F22233;
+	background: #c10b1a;
 	font-size: 14px;
 	line-height: 22px;
 	text-align: center;
